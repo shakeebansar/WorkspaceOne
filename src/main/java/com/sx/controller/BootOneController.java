@@ -12,4 +12,9 @@ public class BootOneController {
         return "Value: " + value;
     }
 
+    @GetMapping("/boot")
+    public String getBoot() {
+        return "BootOne: Take2";
+    }
+
 }
